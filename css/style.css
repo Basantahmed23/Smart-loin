@@ -1,0 +1,71 @@
+
+:root{
+    --main-color:#213852;
+}
+body{
+   background-image: url(../images/sky.jpg);
+   background-size: cover;
+   background-position: center;
+    font-family: sans-serif;
+}
+
+.log{
+     width: 65%;
+      margin: auto;
+     background-color: rgb(253 253 253 / 43%);
+     box-shadow: -6px 10px 15px -5px rgba(0, 77, 165, 0.45);
+     border: #004da413 1px solid;
+      
+}
+h1 , h2 , h3{
+    color: var(--main-color);
+    text-shadow: 2px 2px 5px rgba(41, 52, 197, 0.5);
+}
+
+
+.log input , .log button , .alert{
+    width: 90% !important;
+}
+.form-control:focus{
+    box-shadow: rgba(26, 33, 141, 0.5);
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+.log button:focus{
+    box-shadow:0 0 0 .1rem var(--main-color) !important;
+}
+.log button{
+    transition: all 0.5s;
+}
+.log button{
+    background-color: var(--main-color);
+}
+
+.log button:hover{
+   background-color: #2a4564;
+}
+.log p a:hover{
+    text-decoration: underline !important;
+    text-shadow: 2px 2px 5px rgba(41, 52, 197, 0.5);
+}
+.log a{
+    color: var(--main-color);
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.navbar ul li a{
+    transition: 0.5s;
+}
+.navbar ul li:hover a{
+    color: #fff !important;
+}
+.navbar .navbar-toggler{
+    color: #fff;
+    border: none;
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
